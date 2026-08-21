@@ -1095,9 +1095,9 @@ namespace mbit_Robot {
         Car_back(0, 80)
     }
 
-    //% blockId=mbit_MotorRStop block="parardirección"
+    //% blockId=mbit_MotorRStop block="parardireccion"
     //% weight=85
-    export function DRparar(): void {
+    export function parardireccion(): void {
         setPwm(15, 0, 0)
         setPwm(14, 0, 0)
     }
