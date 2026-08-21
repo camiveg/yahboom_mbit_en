@@ -1064,38 +1064,38 @@ namespace mbit_Robot {
             case CarState.Car_SpinRight: Car_spinright(speed1, speed2); break;
         }
     }
-	 //% blockId=mbit_MotorLForward block="Motor L adelante"
+	 //% blockId=mbit_MotorLForward block="Avanzar"
     //% weight=90
     export function avanzar(): void {
         Car_run(80, 0)
     }
 
-    //% blockId=mbit_MotorLBack block="Motor L atrás"
+    //% blockId=mbit_MotorLBack block="Retroceder"
     //% weight=89
     export function Retroceder(): void {
         Car_back(80, 0)
     }
 
-    //% blockId=mbit_MotorLStop block="Motor L parar"
+    //% blockId=mbit_MotorLStop block="Parar"
     //% weight=88
     export function arParar(): void {
         setPwm(12, 0, 0)
         setPwm(13, 0, 0)
     }
 
-    //% blockId=mbit_MotorRForward block="Motor R adelante"
+    //% blockId=mbit_MotorRForward block="Izquierda"
     //% weight=87
     export function Izquierda(): void {
         Car_run(0, 80)
     }
 
-    //% blockId=mbit_MotorRBack block="Motor R atrás"
+    //% blockId=mbit_MotorRBack block="Derecha"
     //% weight=86
     export function Derecha(): void {
         Car_back(0, 80)
     }
 
-    //% blockId=mbit_MotorRStop block="Motor R parar"
+    //% blockId=mbit_MotorRStop block="parardirección"
     //% weight=85
     export function DRparar(): void {
         setPwm(15, 0, 0)
