@@ -1064,4 +1064,7 @@ namespace mbit_Robot {
             case CarState.Car_SpinRight: Car_spinright(speed1, speed2); break;
         }
     }
+	export function MotorLAdelante(): void {
+    Car_run(80, 0)
+}
 }
