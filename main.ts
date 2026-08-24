@@ -1067,13 +1067,13 @@ namespace mbit_Robot {
 	 //% blockId=mbit_MotorLForward block="Avanzar"
     //% weight=90
     export function avanzar(): void {
-        Car_run(80, 0)
+        Car_back(80, 0)
     }
 
     //% blockId=mbit_MotorLBack block="Retroceder"
     //% weight=89
     export function Retroceder(): void {
-        Car_back(80, 0)
+        Car_run(80, 0)
     }
 
     //% blockId=mbit_MotorLStop block="Parar"
