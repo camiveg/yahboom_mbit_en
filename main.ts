@@ -1086,13 +1086,13 @@ namespace mbit_Robot {
     //% blockId=mbit_MotorRForward block="Izquierda"
     //% weight=87
     export function Izquierda(): void {
-        Car_run(0, 80)
+        Car_back(0, 80)
     }
 
     //% blockId=mbit_MotorRBack block="Derecha"
     //% weight=86
     export function Derecha(): void {
-        Car_back(0, 80)
+        Car_run(0, 80)
     }
 
     //% blockId=mbit_MotorRStop block="parardireccion"
