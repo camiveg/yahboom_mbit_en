@@ -980,7 +980,7 @@ namespace mbit_Robot {
 
         switch (direct) {
             case enPos.LeftState: {
-                if (pins.analogReadPin(AnalogPin.P2) < 500) {
+                if (pins.analogReadPin(AnalogPin.P2) < 800) {
                     if (value == enLineState.White) {
                         temp = true;
                     }
@@ -996,7 +996,7 @@ namespace mbit_Robot {
             }
 
             case enPos.RightState: {
-                if (pins.analogReadPin(AnalogPin.P1) < 500) {
+                if (pins.analogReadPin(AnalogPin.P1) < 800) {
                     if (value == enLineState.White) {
                         temp = true;
                     }
